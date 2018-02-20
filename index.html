@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>fakturamall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Faktura
+            <span>Fakturanummer
+                <input type="text" Fakturanummer="fnummer" placeholder="Fakturanummer">
+            </span>
+        </h1>
+    </header>
+    <maintop>
+        <div class="top" id="underheader">
+            <h3>Fakturadatum Förfallodatum</h3>
+            <p>
+                <input type="text" Fakturadatum="fdatum" placeholder="Fakturadatum">
+                <input type="text" Lastdate="lastdate" placeholder="Förfallodatum">
+            </p>
+        </div>
+
+    </maintop>
+    <section class="adress">
+        <div class="container" id="middle">
+            <h3>Avsändare</h3>
+            <p>
+                <input type="text" Sender="Senderaddress" placeholder="Person/Företagsnamn">
+            </p>
+            <p>
+                <p>
+                    <input type="text" Street="streetaddress" placeholder="Gatuaddress">
+                </p>
+                <p>
+                    <p>
+                        <input type="text" Postnummer="pnummer" placeholder="Postnummer">
+                    </p>
+                    <p>
+                        <p>
+                            <input type="text" Postort="port" placeholder="Postort">
+                        </p>
+        </div>
+        <div class="container" id="middle2">
+            <h3>Fakturaadress</h3>
+            <p>
+                <input type="text" Sender="Senderaddress" placeholder="Person/Företagsnamn">
+            </p>
+            <p>
+                <p>
+                    <input type="text" Street="streetaddress" placeholder="Gatuaddress">
+                </p>
+                <p>
+                    <p>
+                        <input type="text" Postnummer="pnummer" placeholder="Postnummer">
+                    </p>
+                    <p>
+                        <p>
+                            <input type="text" Postort="port" placeholder="Postort">
+                        </p>
+        </div>
+    </section>
+    <section class="ref">
+        <table id="referens">
+            <tbody>
+                <tr>
+                    <th>Vår referens</th>
+                    <th>Er referens</th>
+                    <th>Kundnummer</th>
+                    <th>Betalningsvillkor</th>
+                    <th>Dröjsmålsränta</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="ex.Per">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="ex.Max">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="ex.123">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="30 dagar">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="%">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <middle-header>
+        <div class="division">
+            <div class="first">
+                <p>Artikel/Tjänst</p>
+            </div>
+            <div class="first">
+                <p>Beskrivning</p>
+            </div>
+            <div class="second">
+                <p>Antal</p>
+            </div>
+            <div class="second">
+                <p>á-pris</p>
+
+            </div>
+            <div class="column3">
+                <p>Belopp(SEK)</p>
+            </div>
+        </div>
+    </middle-header>
+    <section class="beskrivning">
+        <textarea rows="10" cols="164" class="full" name="productname" placeholder=""></textarea>
+    </section>
+    <section class="moms">
+        <table id="vat">
+            <tbody>
+                <tr>
+                    <th>Moms 25%</th>
+                    <th>Moms 12%</th>
+                    <th>Moms 6%</th>
+                    <th>Momsfritt</th>
+                    <th>Belopp före moms</th>
+                    <th>Total moms</th>
+                    <th>Summa att betala SEK</th>
+
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" placeholder="">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="">
+                    </td>
+                    <td>
+                        <input type="text" placeholder="">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="bottom">
+        <table id="bottomtext">
+            <tbody>
+                <tr>
+                    <th>
+                        <ul>
+                            <li>
+                                <p>Telfone.nr:
+                                    <input type="text" placeholder="">
+                                </p>
+                            </li>
+                            <li>
+                                <p>Hemsida:
+                                    <input type="text" placeholder="">
+                                </p>
+                            </li>
+                            <li>
+                                <p>E-post adress:
+                                    <input type="text" placeholder="">
+                                </p>
+                            </li>
+                            <li>
+                                <p>Innehar F-skattesedel?
+                                    <input type="text" placeholder="">
+                                </p>
+                            </li>
+                        </ul>
+                    </th>
+                </tr>
+            </tbody>
+
+
+        </table>
+        <table id="bottomtext">
+            <tbody>
+                <tr>
+                    <th>
+                        <ul>
+                            <li>
+                                <p>Org.nr.nr:
+                                    <input type="text" placeholder="">
+                                </p>
+                            </li>
+                            <li>
+                                <p>Vat.nr/Momsreg.nr:
+                                    <input type="text" placeholder="">
+                                </p>
+                            </li>
+                            <li>
+                                <p>SWIFT/BIC:
+                                    <input type="text" placeholder="">
+                                </p>
+                            </li>
+                            <li>
+                                <P>IBAN.nr:
+                                    <input type="text" placeholder="">
+                                </p>
+                            </li>
+                        </ul>
+                    </th>
+                </tr>
+            </tbody>
+            <table id="bottomtext">
+                <tbody>
+                    <tr>
+                        <th>
+                            <ul>
+                                <li>
+                                    <p>Bankgiro:
+                                        <input type="text" placeholder="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Plusgiro:
+                                        <input type="text" placeholder="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Konto.nr:
+                                        <input type="text" placeholder="">
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>Swish.nr:
+                                        <input type="text" placeholder="">
+                                    </p>
+                                </li>
+
+                            </ul>
+                        </th>
+                    </tr>
+                </tbody>
+
+
+
+            </table>
+
+
+        </table>
+
+
+    </section>
+    <footer class="footer-bottom" id="bottom">
+        <p>Denna mall är framtagen av &copy; IKHLAQ</p>
+    </footer>
+
+
+</body>
+
+</html>

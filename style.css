@@ -1,0 +1,135 @@
+
+header {
+    border-style: solid;
+    margin: 10px;
+    padding-left: 10px;  
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+span{
+    display: block;
+    float: right;
+    color: white;
+    font-size: 20px;
+    word-spacing: 10px;
+    margin-right: 10px;
+}
+body maintop {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "tom underhead";
+}
+#underheader {
+    grid-area: underhead;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+#underheader h3 {
+    word-spacing: 150px;
+    margin-right: 9%;
+    
+}
+#underheader p {
+    word-spacing: 100px;
+    
+}
+.adress {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(2, auto);
+    grid-template-areas: "middle middle2";
+}
+#middle {
+    grid-area: middle;
+    align-self: start;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#middle2 {
+    grid-area: middle2;
+    align-self: start;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#referens  { 
+    flex-direction: column;
+    display: table;
+    width: 100%;
+    margin-left: 20px;
+    height: auto;
+   
+}
+#referens th{
+    text-align: left;
+    }
+    .division {
+        border-style: solid;
+        margin: 10px;
+        padding-left: 10px;  
+        background-color: grey;
+        color: white;
+        font-weight: bold;  
+        margin-top: 20px;
+    } 
+    .first {
+        float: left;
+        width: 30%;
+    }
+    .second {
+        float: left;
+        width: 12%;
+    }
+    
+    .beskrivning {
+        margin-left: 11px;
+        clear: both;
+
+
+    }
+    #vat  { 
+        flex-direction: column;
+        display: block;
+        width: 100%;
+        margin-left: 20px;
+        height: auto;
+        color: black;
+        margin-top: 30px;
+        
+               
+               
+    }
+    #vat th{
+        text-align: left;
+        }
+        .bottom{
+            margin-top: 20px;
+        }
+        #bottomtext {
+            font-size: 10px;
+            display: inline-block;
+            clear: left;
+            width: 250px;
+            text-align: left; 
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 10%;
+        }
+                   
+          
+        ul {
+            list-style-type: none;  
+           
+        }
+
+        footer {
+            text-align: left;
+            padding: 10px;
+            margin-top: 20px;
+            color: black;
+            font-size: 10px;
+        }

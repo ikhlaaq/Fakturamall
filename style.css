@@ -1,5 +1,8 @@
 
-header {
+body {
+    background: rgb(204,204,204); 
+  }
+  header {
     border-style: solid;
     margin: 10px;
     padding-left: 10px;  

@@ -1,12 +1,12 @@
 
 body {
-    background: rgb(204,204,204); 
+    background: #fff;
   }
   header {
     border-style: solid;
     margin: 10px;
     padding-left: 10px;  
-    background-color: grey;
+    background-color: black;
     color: white;
     font-weight: bold;
 }
@@ -74,7 +74,7 @@ body maintop {
         border-style: solid;
         margin: 10px;
         padding-left: 10px;  
-        background-color: grey;
+        background-color: black;
         color: white;
         font-weight: bold;  
         margin-top: 20px;
